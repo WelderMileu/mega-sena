@@ -4,5 +4,5 @@
 
 ## Pendencias
 
-[ ] Filtrar numeros duplicados da lista de sortiados
-[ ] Definir o max e min
+- [ ] Filtrar numeros duplicados da lista de sortiados
+- [ ] Definir o max e min
