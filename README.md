@@ -1,3 +1,3 @@
-#Aplicação de Sorteio da Mega-Sena
+# Aplicação de Sorteio da Mega-Sena
 
--Em desenvolviemento
+- Em desenvolviemento
