@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+/* Campo de Inserção de dados */
+
+main{
+	margin:3% 10% auto;
+	width: 100%;
+	display: flex;
+}
+
+main > div > .inputs{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-areas: 
+	"max min"
+	"lenght lenght"
+	"money money";
+	margin-right: 50px;
+}
+
+main > div > .inputs > div:nth-child(1){
+	width: 100%;
+	grid-area: max;
+}
+
+main > div > .inputs > div:nth-child(2){
+	width: 100%;
+	grid-area: min;
+}
+
+main >  div > .inputs > div:nth-child(3){
+	width: 100%;
+	grid-area: lenght;
+}
+
+main > div > .inputs > div:nth-child(4){
+	width: 100%;
+	grid-area: money;
+}
+
+main > div > h1{
+ 	text-transform:uppercase;
+ 	font-family: calibri, sans-serif; 
+ 	padding-bottom: 10px;
+ 	color: #fff;
+ 	text-shadow: 1px 1px 1px black;
+}
+
+main > div > button{
+	border:none;
+	width: 100px;
+	padding:10px 5px;
+	border-radius: 5px;
+	background-color:  #d6d6dd;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+main > div:nth-child(2) > p{
+	font-size: 2em;
+	font-family: calibri, sans-serif;
+	color: grey;
+}
+
+/* Imput-group */
+
+.input-group{
+	display: flex;
+}
+
+.input-group > .input-group-prepend{
+	padding: 10px;
+	background-color: #ddd;
+	border:1px solid #d6d6d6;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.input-group >.form-control{
+	width: 100%;
+	border:none;
+	border:1px solid #d6d6d6;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 0px 10px;
+}
+
+main > div:nth-child(2) > div > div > div > .form-control{
+	width: 100%;
+	border:none;
+	border:1px solid #d6d6d6;
+	border-radius:5px;
+	padding: 10px;
+}
+
+main > div:nth-child(2) > div > div{
+	margin-top: 20px;
+}
+
+main > div:nth-child(2) > div > div > div > p{
+	font-family: calibri, sans-serif;
+	text-transform: uppercase;
+	color: grey;
+	margin: 10px;
+	font-size: .8em;
+}
+
+main > div:nth-child(2) > div{
+	display: flex;
+}
+
+main > div:nth-child(2) > div > div:nth-child(2){
+	width: 180px;
+	margin-left: 40px;
+}
+
+main > div:nth-child(2) > div > div:nth-child(2) > h1{
+	text-transform:uppercase;
+ 	font-family: calibri, sans-serif; 
+ 	padding-bottom: 10px;
+ 	color: #fff;
+ 	text-shadow: 1px 1px 1px black;
+}
+
+main > div:nth-child(2) > div > div:nth-child(2) > p{
+	font-size: 2em;
+	font-family: calibri, sans-serif;
+	color: grey;
+}
+
+main > div:nth-child(2) > div > div:nth-child(2) > div{
+	margin-top: 20px;
+}
+
+main > div:nth-child(2) > div > div:nth-child(2) > div > h1{
+	text-transform:uppercase;
+ 	font-family: calibri, sans-serif; 
+ 	padding-bottom: 10px;
+ 	color: #fff;
+ 	text-shadow: 1px 1px 1px black;	
+}
+
+
+main > div:nth-child(2) > div > div:nth-child(2) > div > p{
+	font-size: 2em;
+	font-family: calibri, sans-serif;
+	color: grey;
+	text-align: center;
+}
+
+/* Campo que recebe os dados do random */
+
+section{
+	margin:-4% 10% auto;
+}
+
+section > .content{
+	width: 500px;
+	height: 200px;
+	padding:3px;
+	border:1px solid #d6d6d6;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: start;
+	justify-content: center;
+}
+
+/* Bolas sorteadas */
+
+section > .content > .result{
+	width: 40px;
+	height: 40px;
+	border:1px solid #d6d6d6;
+	box-shadow: 1px 1px black;
+	padding: 6px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3px;
+}
+
+.red{
+	border:1px solid red;
+	border-radius: 5px;
+}
+
+
+

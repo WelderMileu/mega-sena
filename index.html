@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html leng="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Mega Sena</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+		<main>
+			<div>
+				<h1>Mega Sena</h1>
+				<div class="inputs">
+					<div class="input-group red">
+						<div class="input-group-prepend">
+							<span><i class="fa fa-plus"></i></span>
+						</div>
+						<input type="number" id="max" class="form-control" placeholder="max">
+					</div>
+					<div class="input-group red">
+						<div class="input-group-prepend">
+							<span><i class="fa fa-minus"></i></span>
+						</div>
+						<input type="number" id="min" class="form-control" placeholder="min">
+					</div>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span><i class="fa fa-sort-numeric-asc"></i></span>
+						</div>
+						<input type="number" id="tam" class="form-control" placeholder="length">
+					</div>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span><i class="fa fa-money"></i></span>
+						</div>
+						<input type="number" id="money" class="form-control" placeholder="R$ 00,00">
+					</div>
+				</div><br>
+				<button id="btn">Sortear <i class="fa fa-sign-out"></i></button>		
+			</div>
+			<div>
+				<h1>Bolada</h1>
+				<p id="bolada">R$ 00.00</p>
+				<div>
+					<div>
+						<div>
+							<p>Numeros Premiados</p>
+							<div id="premia" class="form-control">.</div>
+						</div>
+						<div>
+							<p>Numeros Sortiados</p>
+							<div id="sorteia" class="form-control">.</div>
+						</div>
+					</div>
+					<div>
+						<h1>Premio</h1>
+						<p id="premio">R$ 00.00</p>
+						<div>	
+							<h1>N° Pontos</h1>
+							<p id="points">0</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>	
+		<section>	
+			<div class="content"></div>
+		</section>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
